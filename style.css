@@ -81,6 +81,14 @@ padding: 0;
 padding-bottom: 20px;
 }
 
+#aws {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.awspic {
+	width: 250px;
+}
 
 @media (min-width: 650px) {
 
