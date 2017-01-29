@@ -1,6 +1,6 @@
 html {
-   font-family: 'MontrealRegular'; 
-   font-weight: normal; 
+   font-family: 'MontrealRegular';
+   font-weight: normal;
    font-style: normal;
    color: white;
    text-align: center;
@@ -31,7 +31,7 @@ color: #f6ec13;
 }
 
 .githubpic{
-width: 250px; 
+width: 250px;
 height: 250px;
 margin: 0;
 display: inline-block;
@@ -41,7 +41,7 @@ padding-right: 0px;
 }
 
 .linkedinpic{
-width: 250px; 
+width: 250px;
 height: 250px;
 margin: 0;
 display: block;
@@ -52,7 +52,7 @@ padding-top: 25px;
 }
 
 .twitterpic{
-width: 250px; 
+width: 250px;
 height: 250px;
 margin: 0;
 display: block;
@@ -74,11 +74,19 @@ padding-top: 25px;
 }
 
 .gitrandompic{
-width: 85%; 
+width: 85%;
 height: auto;
 margin: 0;
 padding: 0;
 padding-bottom: 20px;
+}
+
+.ghostpic{
+width: 45%;
+height: auto;
+margin: 0;
+padding: 0;
+padding-bottom: 30px;
 }
 
 #aws {
@@ -94,7 +102,7 @@ padding-bottom: 20px;
 
 
 .githubpic{
-width: 250px; 
+width: 250px;
 height: 250px;
 margin: 0;
 display: inline-block;
@@ -104,7 +112,7 @@ padding-right: 30px;
 }
 
 .twitterpic{
-width: 250px; 
+width: 250px;
 height: 250px;
 margin: 0;
 display: inline-block;
@@ -115,7 +123,7 @@ padding-right: 30px;
 }
 
 .linkedinpic{
-width: 250px; 
+width: 250px;
 height: 250px;
 margin: 0;
 display: inline-block;
@@ -135,10 +143,18 @@ padding-left: 30px;
 }
 
 .gitrandompic{
-width: auto; 
+width: auto;
 height: auto;
 margin: 0;
 padding-bottom: 25px;
+}
+
+.ghostpic{
+width: 40%;
+max-width: 300px;
+height: auto;
+margin: 0;
+padding-bottom: 35px;
 }
 
 }
