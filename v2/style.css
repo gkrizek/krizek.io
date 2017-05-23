@@ -2,7 +2,7 @@ html {
    font-family: 'courier';
    font-weight: normal;
    font-style: normal;
-   color: #996699;
+   color: #fff;
    text-align: center;
 }
 
@@ -15,6 +15,37 @@ body{
     padding: 0;
 }
 
+.blog {
+  padding-top: 50px;
+  font-size: 1.5em;
+}
+
+.blog h4 {
+  padding-bottom: 15px;
+}
+
+.blog a {
+  color: #ffffff;
+}
+
+.blog li {
+  padding-bottom: 10px;
+}
+
+.contact {
+  padding-top: 50px;
+  font-size: 1.5em;
+  padding-bottom: 50px;
+}
+
+.contact h4 {
+  padding-bottom: 15px;
+}
+
+.contact a {
+    color: #ffffff;
+}
+
 #hexGrid {
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +54,7 @@ body{
   overflow: hidden;
   font-size: 15px;
   list-style-type: none;
+  max-width: 65em;
 }
 
 .hex {
@@ -79,7 +111,7 @@ body{
 @media (min-width:1201px) { /* <- 5-4  hexagons per row */
   #hexGrid{
     padding-bottom: 7.4%;
-    padding-top: 7.4%;
+    padding-top: 4%;
   }
   .hex {
     width: 33.333%; /* = 100 / 3 */
@@ -87,22 +119,18 @@ body{
   .hex:nth-child(5n+4){ /* first hexagon of even rows */
     margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
   }
-  body{
-    margin-left:25%;
-    margin-right:25%;
-  }
 }
 
 @media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
   #hexGrid{
-    padding-bottom: 5.5%;
-    padding-top: 5.5%;
+    padding-bottom: 7.4%;
+    padding-top: 4%;
   }
   .hex {
-    width: 25%; /* = 100 / 4 */
+    width: 33.333%; /* = 100 / 3 */
   }
-  .hex:nth-child(7n+5){ /* first hexagon of even rows */
-    margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
+  .hex:nth-child(5n+4){ /* first hexagon of even rows */
+    margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
   }
 }
 
