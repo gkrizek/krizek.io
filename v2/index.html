@@ -14,41 +14,77 @@
     ga('create', 'UA-91457491-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+    //Mobile Safari Sucks
+    function isMobile() {
+      return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+    $(document).ready(function(){
+      if (!isMobile()) {
+        $('#github').hover(function() {
+            $('#github').attr("src", "icons/github-over.svg")
+        },function() {
+            $('#github').attr("src", "icons/github.svg")
+        })
+        $('#twitter').hover(function() {
+            $('#twitter').attr("src", "icons/twitter-over.svg")
+        },function() {
+            $('#twitter').attr("src", "icons/twitter.svg")
+        })
+        $('#linkedin').hover(function() {
+            $('#linkedin').attr("src", "icons/linkedin-over.svg")
+        },function() {
+            $('#linkedin').attr("src", "icons/linkedin.svg")
+        })
+        $('#aws').hover(function() {
+            $('#aws').attr("src", "icons/aws-over.svg")
+        },function() {
+            $('#aws').attr("src", "icons/aws.svg")
+        })
+        $('#resume').hover(function() {
+            $('#resume').attr("src", "icons/resume-over.svg")
+        },function() {
+            $('#resume').attr("src", "icons/resume.svg")
+        })
+      }
+    })
+  </script>
 </head>
 <body>
   <ul id="hexGrid">
     <li class="hex">
       <div class="hexIn">
         <a class="hexLink" href="https://github.com/gkrizek">
-          <img src="icons/github.svg" onmouseover="this.src='icons/github-over.svg'" onmouseout="this.src='icons/github.svg'"/>
+          <img id="github" src="icons/github.svg" />
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
         <a class="hexLink" href="https://twitter.com/gkrizek">
-          <img src="icons/twitter.svg" onmouseover="this.src='icons/twitter-over.svg'" onmouseout="this.src='icons/twitter.svg'"/>
+          <img id="twitter" src="icons/twitter.svg" />
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
         <a class="hexLink" href="https://www.linkedin.com/in/grahamkrizek">
-          <img src="icons/linkedin.svg" onmouseover="this.src='icons/linkedin-over.svg'" onmouseout="this.src='icons/linkedin.svg'"/>
+          <img id="linkedin" src="icons/linkedin.svg" />
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
         <a class="hexLink" href="https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=XECPVBSKKJB4QM5T">
-          <img src="icons/aws.svg" onmouseover="this.src='icons/aws-over.svg'" onmouseout="this.src='icons/aws.svg'"/>
+          <img id="aws" src="icons/aws.svg" />
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
         <a class="hexLink" href="files/krizek-graham-resume.pdf">
-          <img src="icons/resume.svg" onmouseover="this.src='icons/resume-over.svg'" onmouseout="this.src='icons/resume.svg'"/>
+          <img id="resume" src="icons/resume.svg" />
         </a>
       </div>
     </li>
