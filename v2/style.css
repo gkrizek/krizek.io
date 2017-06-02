@@ -9,7 +9,7 @@ html {
 body {
   background: #2b2b2b;
   background: url('files/background.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
+  -webkit-background-size: scroll;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
