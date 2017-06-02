@@ -2,12 +2,18 @@ html {
    font-family: 'courier';
    font-weight: normal;
    font-style: normal;
-   color: #fff;
+   color: #333333;
    text-align: center;
 }
 
-body{
+body {
   background: #2b2b2b;
+  background: url('files/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 75px;
 }
 
 * {
@@ -25,7 +31,7 @@ body{
 }
 
 .blog a {
-  color: #ffffff;
+  color: #333333;
 }
 
 .blog li {
@@ -43,6 +49,10 @@ body{
 }
 
 .contact a {
+    color: #333333;
+}
+
+.contact a:hover {
     color: #ffffff;
 }
 
@@ -54,7 +64,7 @@ body{
   overflow: hidden;
   font-size: 15px;
   list-style-type: none;
-  max-width: 65em;
+  max-width: 55em;
 }
 
 .hex {
