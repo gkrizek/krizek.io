@@ -1,0 +1,40 @@
+<RoutingRules>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>resume</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>files/krizek-graham-resume.pdf</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>gpg</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>files/gpg-public.txt</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>bitcoin</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>files/bitcoin-address.txt</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>krizek.io</HostName>
+      <ReplaceKeyWith/>
+    </Redirect>
+    </RoutingRule>
+
+</RoutingRules>
