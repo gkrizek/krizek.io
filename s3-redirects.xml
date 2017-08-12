@@ -20,6 +20,15 @@
 
   <RoutingRule>
     <Condition>
+      <KeyPrefixEquals>key</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>files/gkrizek.pub</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
       <KeyPrefixEquals>bitcoin</KeyPrefixEquals>
     </Condition>
     <Redirect>
