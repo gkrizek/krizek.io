@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gkrizek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://krizek.io
+  * I am gkrizek (https://keybase.io/gkrizek) on keybase.
+  * I have a public key ASDUkFNWxpP0z6EOwGG4Jt-Az3TsEFcivFZqAY8tjxZ2tAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d4905356c693f4cfa10ec061b826df80cf74ec105722bc566a018f2d8f1676b40a",
+      "host": "keybase.io",
+      "kid": "0120d4905356c693f4cfa10ec061b826df80cf74ec105722bc566a018f2d8f1676b40a",
+      "uid": "32d038dd7308e6b67ef48c7c8d3f9919",
+      "username": "gkrizek"
+    },
+    "merkle_root": {
+      "ctime": 1525211343,
+      "hash": "d3d5e66d9eb7bbc7c6e297315e924f1785a09a83de4d226c8c50c68bdc87e5cba12ce6232de4805f2c2e0a3481149dfefe3f0cf2b0fdf906ded79bf7116cd1ba",
+      "hash_meta": "3264b90c0b4c8cfc1622889ee5ab748331a6206f59974472bc7fac9b819d9fc8",
+      "seqno": 2467553
+    },
+    "service": {
+      "entropy": "J05+DFrkpF1KpjFWiyGuXqKD",
+      "hostname": "krizek.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1525211374,
+  "expire_in": 504576000,
+  "prev": "a389d39fdf95e49ddb6541ca1c6e06488ca737822ef2a41eb5418a5f98c4344f",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1JBTVsaT9M+hDsBhuCbfgM907BBXIrxWagGPLY8WdrQKp3BheWxvYWTESpcCB8Qgo4nTn9+V5J3bZUHKHG4GSIynN4Iu8qQetUGKX5jENE/EIOIZR20toq97l+PnkHa5O3bLopui16wnPLUa5btklM42AgHCo3NpZ8RAg+q5fisyWrXjV8GGSPp8pLFjlZH2Rab8Uy+3hdPp9R8bQGlDyXRjLn0o/mreJBqdpuwcgqUBFhfjIQbRSt1OCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJUm1C0X36osP3vPfE6WShO3+LgNmp7XBjtP8TqbNMJPo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gkrizek
+
+==================================================================
