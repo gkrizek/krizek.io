@@ -20,6 +20,15 @@
 
   <RoutingRule>
     <Condition>
+      <KeyPrefixEquals>pgp</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>files/gpg-public.txt</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
       <KeyPrefixEquals>key</KeyPrefixEquals>
     </Condition>
     <Redirect>
