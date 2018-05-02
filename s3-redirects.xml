@@ -29,7 +29,7 @@
 
   <RoutingRule>
     <Condition>
-      <KeyPrefixEquals>key</KeyPrefixEquals>
+      <KeyPrefixEquals>ssh</KeyPrefixEquals>
     </Condition>
     <Redirect>
       <ReplaceKeyPrefixWith>files/gkrizek.pub</ReplaceKeyPrefixWith>
