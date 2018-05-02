@@ -52,6 +52,16 @@
         },function() {
             $('#keybase').attr("src", "icons/keybase.svg")
         })
+        $('#telegram').hover(function() {
+            $('#telegram').attr("src", "icons/telegram-over.svg")
+        },function() {
+            $('#telegram').attr("src", "icons/telegram.svg")
+        })
+        $('#email').hover(function() {
+            $('#email').attr("src", "icons/email-over.svg")
+        },function() {
+            $('#email').attr("src", "icons/email.svg")
+        })
       }
     })
   </script>
@@ -88,12 +98,10 @@
     </li>
     <li class="hex">
       <div class="hexIn">
-        <a class="hexLink" href="files/krizek-graham-resume.pdf">
-          <img id="resume" src="icons/resume.svg" />
+        <a class="hexLink" href="https://t.me/gkrizek">
+          <img id="telegram" src="icons/telegram.svg" />
         </a>
       </div>
-    </li>
-    <li class="hex">
     </li>
     <li class="hex">
       <div class="hexIn">
@@ -102,13 +110,20 @@
         </a>
       </div>
     </li>
+    <li class="hex">
+      <div class="hexIn">
+        <a class="hexLink" href="files/krizek-graham-resume.pdf">
+          <img id="resume" src="icons/resume.svg" />
+        </a>
+      </div>
+    </li>
+    <li class="hex">
+      <div class="hexIn">
+        <a class="hexLink" href="mailto:graham@krizek.io">
+          <img id="email" src="icons/email.svg" />
+        </a>
+      </div>
+    </li>
   </ul>
-
-  <center>
-    <div class="contact">
-      <h4>Contact:</h4>
-      <a href="mailto:graham@krizek.io">graham@krizek.io</a>
-    </div>
-  </center>
 </body>
 </HTML>
